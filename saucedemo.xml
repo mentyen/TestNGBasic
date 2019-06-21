@@ -1,0 +1,13 @@
+<suite name="No name">
+<groups>
+<run>
+<include name="Regression"/>
+<exclude name="Smoke"/>
+</run>
+</groups>
+<test name="Smoke">
+<classes>
+<class name="com.class4.SouceDemo"/>
+</classes>
+</test>
+</suite>

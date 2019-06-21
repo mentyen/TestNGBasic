@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewTour]">
+  <test thread-count="5" name="Smoke(failed)">
+    <groups>
+      <run>
+        <exclude name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.class3_Dependency.NewTourExample">
+        <methods>
+          <include name="contactInformation"/>
+          <include name="mailingInformation"/>
+        </methods>
+      </class> <!-- com.class3_Dependency.NewTourExample -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [NewTour] -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel 2 Classes]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.class5.HM2users">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="logIn"/>
+          <include name="addingUsers"/>
+        </methods>
+      </class> <!-- com.class5.HM2users -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="com.class5.DataRecup">
+        <methods>
+          <include name="runingData" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.class5.DataRecup -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Parallel 2 Classes] -->

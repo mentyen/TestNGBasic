@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [souceDemo]">
+  <test thread-count="5" name="Smoke(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.class3_Dependency.TC_1">
+        <methods>
+          <include name="userOne"/>
+        </methods>
+      </class> <!-- com.class3_Dependency.TC_1 -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [souceDemo] -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Browser parallel not working" >
+
+
+
+	<test  name="Test Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="Tester" />
+		<parameter name="password" value="test" />
+		<classes>
+			<class name="com.class5.HM2users" />
+		</classes>
+	</test> 
+	
+	<test  name="Test Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="username" value="Tester" />
+		<parameter name="password" value="test" />
+		<classes>
+			<class name="com.class5.HM2users" />
+		</classes>
+	</test> 
+	
+	
+	
+</suite> <!-- Suite -->

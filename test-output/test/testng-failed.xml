@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Test]">
+  <test thread-count="5" parallel="tests" name="chrom(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.yahoo.com"/>
+    <classes>
+      <class name="com.Practice.TestOfall">
+        <methods>
+          <include name="openNameOne" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Practice.TestOfall -->
+    </classes>
+  </test> <!-- chrom(failed) -->
+</suite> <!-- Failed suite [Test] -->

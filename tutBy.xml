@@ -1,0 +1,17 @@
+<suite name="TutBy">
+
+<groups>
+<run>
+<exclude name="smoke"/>
+</run>
+</groups>
+
+<test name="smoke">
+
+<classes>
+
+<class name="com.Practice.GroupTest"/>
+
+</classes>
+</test>
+</suite>

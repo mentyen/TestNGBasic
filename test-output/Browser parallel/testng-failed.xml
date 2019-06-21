@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Browser parallel]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test Chrome(failed)">
+    <parameter name="password" value="test"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="Tester"/>
+    <classes>
+      <class name="com.class5.HM2users">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addingUsers" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.class5.HM2users -->
+    </classes>
+  </test> <!-- Test Chrome(failed) -->
+  <test thread-count="5" parallel="tests" name="Test Firefox(failed)">
+    <parameter name="password" value="test"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="Tester"/>
+    <classes>
+      <class name="com.class5.HM2users">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addingUsers" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.class5.HM2users -->
+    </classes>
+  </test> <!-- Test Firefox(failed) -->
+</suite> <!-- Failed suite [Browser parallel] -->

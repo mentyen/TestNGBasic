@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel 2 test" parallel="tests">
+
+  <test name="Test1">
+    <classes>
+      <class name="com.class5.HM2users"/>
+     </classes>
+    </test>
+    
+    <test name="Test2">
+    <classes>
+           <class name="com.class5.DataRecup"/>
+    </classes>
+    
+  </test> 
+</suite> 

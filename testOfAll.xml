@@ -1,0 +1,24 @@
+<suite name="Test"  >
+
+
+
+
+<test name="chrom" thread-count="1">
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="http://www.yahoo.com"/>
+<classes>
+<class name="com.Practice.TestOfall"/>
+</classes>
+</test>
+
+<test name="fox" thread-count="1">
+<parameter name="browser" value="firefox"/>
+<parameter name="url" value="http://www.yahoo.com"/>
+<classes>
+<class name="com.Practice.TestOfall"/>
+</classes>
+</test>
+
+
+
+</suite>

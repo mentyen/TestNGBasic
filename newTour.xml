@@ -1,0 +1,16 @@
+<suite name="NewTour">
+<test name="Smoke">
+<groups>
+<run>
+
+<include name="Regression"/>
+
+</run>
+</groups>
+<classes>
+
+<class name="com.class3_Dependency.NewTourExample"/>
+
+</classes>
+</test>
+</suite>
